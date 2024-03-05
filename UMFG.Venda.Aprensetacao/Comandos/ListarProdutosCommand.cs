@@ -13,6 +13,7 @@ namespace UMFG.Venda.Aprensetacao.Comandos
     {
         public override void Execute(object? parameter)
         {
+
             ucListarProdutos.Exibir(parameter as MainWindowViewModel);        
         }
     }
