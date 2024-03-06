@@ -29,7 +29,9 @@ namespace UMFG.Venda.Aprensetacao.ViewModels
 
         public void Update(ISubject subject)
         {
-           
+            if (subject is ListarProdutosViewModel)
+                UserControl = (subject as ListarProdutosViewModel).UserControl;
+
         }
     }
 }
