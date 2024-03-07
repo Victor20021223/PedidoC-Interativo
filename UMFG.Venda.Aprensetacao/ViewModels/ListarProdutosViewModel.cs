@@ -57,6 +57,9 @@ namespace UMFG.Venda.Aprensetacao.ViewModels
         public AdicionarProdutoPedidoComand Adicionar { get; private set; }
             = new AdicionarProdutoPedidoComand();
 
+        public ReceberPedidoCommand Receber { get; private set;  }
+            = new ReceberPedidoCommand();
+
         public ListarProdutosViewModel(UserControl userControl, IObserver observer)
             :base("Lista de Produtos")
         {

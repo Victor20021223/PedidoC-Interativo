@@ -32,6 +32,8 @@ namespace UMFG.Venda.Aprensetacao.ViewModels
             if (subject is ListarProdutosViewModel)
                 UserControl = (subject as ListarProdutosViewModel).UserControl;
 
+            if (subject is ReceberViewModel)
+                UserControl = (subject as ReceberViewModel).UserControl;
         }
     }
 }
